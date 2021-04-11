@@ -9,7 +9,8 @@ import EmailIcon from '@material-ui/icons/Email';
 
 export const Navbar = () => {
     return (
-        <div className={styles.jumbotron}>
+        <div className={styles.jumbotron} id="jumbotron">
+            <div className={styles.backimage}>
             <div className={styles.conbusi}>
                 <div className={styles.conbusiContainer}>
                     <p>Welcome to cynthia design</p>
@@ -53,23 +54,11 @@ export const Navbar = () => {
                     <input type="submit" value="Search" className={styles.navbutton}/>
                 </div>
             </div>
-            <div className={styles.content}>
-                <div className={styles.contentcontainer}>
-                    <br/><br/>
-                    <div className={styles.splashscreen}>
-                    <div className={styles.picone}>
-                        
-                    </div>
-                    <div className={styles.splashscreentwo}>
-                        <div className={styles.pictwo}></div>
-                        <div className={styles.spashscreenthree}>
-                            <div className={styles.picthree}></div>
-                            <div className={styles.picfour}></div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
             </div>
+            {/* <div className={styles.distro}>
+                yoh
+            </div> */}
+            
         </div>
     )
 }

@@ -1,7 +1,12 @@
 .jumbotron{
- background-image: url(../public/img/jumbotron.png);
- height: 100vh;
- background-size: cover;
+ height: auto;
+ width: 100%;
+}
+.backimage{
+    background-image: url(../public/img/jumbotron.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
 }
 .conbusi{
     background-color: greenyellow;
@@ -150,57 +155,11 @@
     font-size: 13px;
     font-weight: 500;
 }
-.contentcontainer{
-    margin-left: 10%;
-    margin-right: 10%;
-}
-.content{
-    color: #fff;
-    text-align: center;
-    font-size: 30px;
-}
-.splashscreen{
-    display: flex;
-    height: 600px;
 
-}
-.picone{
-    background-image: url(../public/img/pictwo.png);
-    background-size: cover;
+
+/* .distro{
     height: 400px;
-    width: 500px;
-    margin-right: 5px;
-}
-.splashscreentwo{
-    display: flex;
-    flex-direction: column !important;
-    height: 400px;
-}
-.pictwo{
-    background-image: url(../public/img/pictwo.png);
-    background-size: cover;
-    width: 500px;
-    height: 250px;
-    margin-bottom: 5px;
-}
-.spashscreenthree{
-    display: flex;
-}
-.picthree{
-    background-image: url(../public/img/picthree.png);
-    background-size: cover;
-    width: 250px;
-    height: 150px;
-    margin-right: 5px;
-}
-.picfour{
-    background-image: url(../public/img/picfive.png);
-    background-size: cover;
-    width: 250px;
-    height: 150px;
-}
-
-
+} */
 
 
 
