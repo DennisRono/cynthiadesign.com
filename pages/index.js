@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import Slim from '../components/Slim'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -37,7 +38,7 @@ export default function Home() {
       
       <div className={styles.content}>
                 <div className={styles.contentcontainer}>
-                <h1 className={styles.cententheader}>
+                <h1 className={styles.contentheader}>
                   <u>Our Gallery</u>
                 </h1>
                     <div className={styles.splashscreen}>
@@ -54,7 +55,34 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            
+            {/* <div className={styles.slim}>
+              <div className={styles.slimcontainer}>
+                <div className={styles.slimleft}>
+                  <div className={styles.monday}>
+                    <h5>Monday</h5>
+                    <span>lorem ispum</span>
+                  </div>
+                  <div className={styles.tuesday}>
+                  <h5>Tuesday</h5>
+                    <span>lorem ispum</span>
+                  </div>
+                  <div className={styles.wednesday}>
+                  <h5>Wednesday</h5>
+                  <span>lorem ispum</span>
+                  </div>
+                  <div className={styles.thursday}>
+                  <h5>Thursday</h5>
+                  <span>lorem ispum</span>
+                  </div>
+                  <div className={styles.friday}>
+                  <h5>Friday</h5>
+                  <span>lorem ispum</span>
+                  </div>
+                </div>
+                <div className={styles.slimright}></div>
+              </div>
+            </div> */}
+      <Slim />
       <Footer />
       <a href="#jumbotron">
       <div className={styles.restoreup}></div>

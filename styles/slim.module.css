@@ -1,0 +1,62 @@
+.slim{
+}
+.slimcontainer{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.slimcontainer > span{
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.3);
+    color: #fe9191;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.slimcontainer > h2{
+    text-align: center;
+}
+.slimcontainer > p{
+    text-align: center;
+}
+.navpills{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.navpills > a{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: coral;
+    margin-bottom: 10px;
+}
+.navpills > a:nth-child(1){
+    margin-top: 20px;
+}
+.navlinkwrap{
+    display: flex;
+}
+.slimcontentarea{
+    width: 80%;
+}
+.slimrightone{
+    height: 200px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.slimrighttwo{
+    height: 200px;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.slimrightthree{
+    height: 200px;
+    background-color: #fff;
+    margin-top: 15px;
+    margin-left: 10px;
+}
