@@ -6,8 +6,8 @@ export const Slim = () => {
         <div className={styles.slim}>
             <div className={styles.slimcontainer}>
                 <span>schedule</span>
-                <h2>Training Schedule</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, odit!</p>
+                <h2>Downloads</h2>
+                <p>All of our special downloads</p>
             <div className={styles.navlinkwrap}>
 	            <div className={styles.navpills} role="tablist" aria-orientation="vertical">
 	              <a className={styles.navlink} data-toggle="pill" href="#v-pills-8" role="tab" aria-controls="v-pills-8" aria-selected="true">
@@ -34,10 +34,25 @@ export const Slim = () => {
 	            </div>
                 <div className={styles.slimcontentarea}>
                     <div className={styles.slimrightone}>
-
+					<div className={styles.slimdownloadone}>
+						<button>&times;</button>
+					</div>
+					<div className={styles.slimdownloadtwo}></div>
+					<div className={styles.slimdownloadthree}></div>
+					<div className={styles.slimdownloadfour}></div>
                     </div>
-                    <div className={styles.slimrighttwo}></div>
-                    <div className={styles.slimrightthree}></div>
+                    <div className={styles.slimrighttwo}>
+					<div className={styles.slimdownloadfive}></div>
+					<div className={styles.slimdownloadsix}></div>
+					<div className={styles.slimdownloadseven}></div>
+					<div className={styles.slimdownloadeight}></div>
+					</div>
+                    <div className={styles.slimrightthree}>
+					<div className={styles.slimdownloadnine}></div>
+					<div className={styles.slimdownloadten}></div>
+					<div className={styles.slimdownloadeleven}></div>
+					<div className={styles.slimdownloadtwelve}></div>
+					</div>
                 </div>
 	          </div>
             </div>

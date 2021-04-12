@@ -60,3 +60,65 @@
     margin-top: 15px;
     margin-left: 10px;
 }
+.slimrightone,
+.slimrighttwo,
+.slimrightthree{
+    display: flex;
+}
+.slimdownloadone,
+.slimdownloadtwo,
+.slimdownloadthree,
+.slimdownloadfour,
+.slimdownloadfive,
+.slimdownloadsix,
+.slimdownloadseven,
+.slimdownloadeight,
+.slimdownloadnine,
+.slimdownloadten,
+.slimdownloadeleven,
+.slimdownloadtwelve{
+    height: ;
+    width: 200px;
+    border: 1px solid rgb(255, 255, 255);
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    margin: 10px;
+    background-position: center center;
+    background-size: cover;
+}
+.slimdownloadone{
+    background-image: url(../public/img/picone.png);
+}
+.slimdownloadtwo{
+    background-image: url(../public/img/pictwo.png);
+}
+.slimdownloadthree{
+    background-image: url(../public/img/picthree.png);
+}
+.slimdownloadfour{
+    background-image: url(../public/img/picfour.png);
+}
+.slimdownloadfive{
+    background-image: url(../public/img/picfive.png);
+}
+.slimdownloadsix{
+    background-image: url(../public/img/picsix.png);
+}
+.slimdownloadseven{
+    background-image: url(../public/img/picseven.png);
+}
+.slimdownloadeight{
+    background-image: url(../public/img/piceight.png);
+}
+.slimdownloadnine{
+    background-image: url(../public/img/picnine.png);
+}
+.slimdownloadten{
+    background-image: url(../public/img/picten.png);
+}
+.slimdownloadeleven{
+    background-image: url(../public/img/piceleven.png);
+}
+.slimdownloadtwelve{
+    background-image: url(../public/img/pictwelve.png);
+}
