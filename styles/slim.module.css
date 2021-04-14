@@ -122,3 +122,9 @@
 .slimdownloadtwelve{
     background-image: url(../public/img/pictwelve.png);
 }
+
+@media(max-width:980px){
+    .slim{
+        display: none;
+    }
+}

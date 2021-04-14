@@ -3,7 +3,7 @@
  width: 100%;
 }
 .backimage{
-    background-image: url(../public/img/jumbotron.png);
+    background-image: url(../public/img/chela/grouppic.png);
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -173,5 +173,24 @@
         text-align: center !important;
         margin-top: 0px;
         padding-top: 15px;
+    }
+}
+@media(max-width:1005px){
+    .navbar,
+    .conbusi,
+    .constructoButtons{
+        display: none;
+    }
+    .responsivebars{
+        display: block;
+        color: #fff;
+        position: absolute;
+        top: 30px;
+        right: 50px;
+    }
+}
+@media(min-width: 1005px){
+    .responsivebars{
+        display: none;
     }
 }

@@ -1,0 +1,34 @@
+.login{
+    background-color: rgb(213, 213, 213);
+    height: 100vh;
+    margin: 0 !important;
+}
+.logincontainer{
+    position: absolute;
+    width: auto;
+    height: auto;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+}
+.loginbox{
+    height: auto;
+    width: 300px;
+    border: 1px solid black;
+}
+.loginbox > h3{
+    text-align: center;
+}
+.signin{
+    display: flex;
+    flex-direction: column;
+}
+.signin > input{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 30px !important;
+    width: 80%;
+    margin: 0 10%;
+}

@@ -5,6 +5,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import PhoneIcon from '@material-ui/icons/Phone';
 import EmailIcon from '@material-ui/icons/Email';
+import HorizontalSplitRoundedIcon from '@material-ui/icons/HorizontalSplitRounded';
 
 
 export const Navbar = () => {
@@ -36,7 +37,10 @@ export const Navbar = () => {
                     </div>
                     <div className={styles.constructoButtons}>
                         <a className={styles.register}>Sign up</a>
-                        <a className={styles.login}>Sign in</a>
+                        <a className={styles.login} href="/login">Sign in</a>
+                    </div>
+                    <div className={styles.responsivebars}>
+                    <HorizontalSplitRoundedIcon />
                     </div>
                 </div>
             </div>

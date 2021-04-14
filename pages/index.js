@@ -16,12 +16,9 @@ export default function Home() {
               </div>
             </div>
             <div className={styles.aidtext}>
-            <h3>We need volunteers in Africa</h3>
-            <p>Lorem ipsum dolor sit amet,<br/>
-             consectetur adipisicing elit.<br/>
-              Perspiciatis beatae atque cupiditate ab<br/>
-               reprehenderit perferendis inventore<br/>
-                ad repellendus excepturi facilis.</p>
+            <h3>make artistic collages</h3>
+            <p>Accent your ideas with many preset<br/>
+             templates, ranging from social media designs including Facebook covers, posters, photo cards, YouTube banner ads, and much, much more! You can easily create all kinds of designs in just a few clicks!</p>
                 <br/>
             <button className={styles.aidbutton}>JOIN</button>
             </div>
