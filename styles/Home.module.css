@@ -44,7 +44,7 @@
     width: 50%;
 }
 .pictwo{
-    background-image: url(../public/img/chela/wolvees.jpg);
+    background-image: url(../public/img/post-40.jpg);
     background-size: cover;
     width: 100%;
     height: 250px;
@@ -156,7 +156,7 @@
     width: 75%;
     margin-top: 100px;
     border: 2px solid cyan;
-    background-image: url(../public/img/chela/neon.jpg);
+    background-image: url(../public/img/piceleven.png);
     background-size: cover;
     background-position: 0 center;
 }
