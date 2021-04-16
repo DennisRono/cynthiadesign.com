@@ -36,7 +36,7 @@ export const Navbar = () => {
                         <h1>Chela</h1>
                     </div>
                     <div className={styles.constructoButtons}>
-                        <a className={styles.register}>Sign up</a>
+                        <a className={styles.register} href="/register">Sign up</a>
                         <a className={styles.login} href="/login">Sign in</a>
                     </div>
                     <div className={styles.responsivebars}>

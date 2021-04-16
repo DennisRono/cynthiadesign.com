@@ -43,6 +43,11 @@
     border: 1px solid #ffffff;
     border-radius: 30px;
 }
+@media(max-width: 420px){
+    .navSearch{
+        width: 265px;
+    }
+}
 .navSearch > .navInput{
     background-color: transparent;
     border: none;
