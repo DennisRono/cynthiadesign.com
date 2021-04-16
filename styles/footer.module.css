@@ -42,10 +42,15 @@
     border: none;
     border: 1px solid #ffffff;
     border-radius: 30px;
+    padding-top: 10px;
 }
 @media(max-width: 420px){
     .navSearch{
         width: 265px;
+        padding-top: 10px;
+    }
+    .navbutton{
+        margin-top: -10px !important;
     }
 }
 .navSearch > .navInput{
@@ -65,6 +70,8 @@
     border-radius: 30px;
     font-size: 13px;
     font-weight: 500;
+    float: right;
+    margin-top: -10px !important;
 }
 .footertwo > h1,
 .footerthree > h1,
