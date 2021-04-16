@@ -15,18 +15,12 @@ export const login = () => {
                             <input type="password" className={styles.forminput} placeholder="Password"/>
                         </div>
                         <div className={styles.inputcontainer}>
-                            <input type="checkbox"/>
-                            <label htmlFor="" className={styles.labelagree}>
-                                I agree all <a href="#">Terms & Service</a>
-                            </label>
-                        </div>
-                        <div className={styles.inputcontainer}>
-                            <input type="submit" value="Sign Up" className={styles.formsubmit}/>
+                            <input type="submit" value="Sign In" className={styles.formsubmit}/>
                         </div>
                     </form>
                     <p className={styles.loginhere}>
                         Don't have an account? 
-                        <a href="#"> Register</a><br/>
+                        <a href="/register"> Register</a><br/>
                         <span className={styles.backhome}><a href="/">Home</a></span>
                     </p>
                     
