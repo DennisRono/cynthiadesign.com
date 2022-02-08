@@ -39,8 +39,8 @@ export const Header = () => {
                             <a href="./login.html" className="login-button">Sign in</a>                    
                         </div>
                         <span className="resopen">
-                            <i className="nav-cont navopen fas fa-bars" onclick="navbar()"></i>
-                            <i id="navclose" className="nav-cont fas fa-times" onclick="navclose()" style="display: none;"></i>
+                            <i className="nav-cont navopen fas fa-bars" onClick="navbar()"></i>
+                            <i id="navclose" className="nav-cont fas fa-times" onClick="navclose()" style={{ display: "none" }}></i>
                         </span>
                     </div>
                 </div>
@@ -59,10 +59,10 @@ export const Header = () => {
                             <div className="h_search">
                                 <form className="navform" id="navform">
                                     <input className="searchinput" type="text" placeholder="Search.." />
-                                    <i className="fas fa-search" type="submit" name="submit" onclick="closeform();"></i>
+                                    <i className="fas fa-search" type="submit" name="submit" onClick="closeform();"></i>
                                 </form>
                                 <div className="show_search_form" id="openform">
-                                    <i className="fas fa-search" onclick="showsearchform();"></i>
+                                    <i className="fas fa-search" onClick="showsearchform();"></i>
                                 </div>
                             </div>
                         </div>
